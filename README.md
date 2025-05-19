@@ -55,4 +55,4 @@ The goal was to understand the game logic, identify bugs, and rebuild the app wi
 - Bugs were not always visible at first, I tested edge cases.
 ---
 
-Video demo link: [Insert video link here if required]
+Video demo link: ()
