@@ -55,4 +55,4 @@ The goal was to understand the game logic, identify bugs, and rebuild the app wi
 - Bugs were not always visible at first, I tested edge cases.
 ---
 
-Video demo link: ()
+Video demo link: (./SurviveGame-Reverse-Engineering-Project.mkv)
