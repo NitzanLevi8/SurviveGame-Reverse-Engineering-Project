@@ -12,6 +12,9 @@ https://github.com/NitzanLevi8/SurviveGame-Reverse-Engineering-Project
 **Game result:** Survived  
 ---
 
+[Watch the video](./SurviveGame.mp4)
+
+---
 ## Project Overview
 
 This project is based on reverse engineering an Android APK file.  
@@ -55,4 +58,3 @@ The goal was to understand the game logic, identify bugs, and rebuild the app wi
 - Bugs were not always visible at first, I tested edge cases.
 ---
 
-[Watch video](./SSurviveGame.mp4)
