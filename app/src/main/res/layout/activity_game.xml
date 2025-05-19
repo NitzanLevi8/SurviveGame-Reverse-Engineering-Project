@@ -1,0 +1,84 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5F8FC">
+
+    <TextView
+        android:id="@+id/game_LBL_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeat the direction sequence to survive!"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/game_LBL_pattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pattern:"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:layout_below="@id/game_LBL_result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"/>
+
+
+    <View
+        android:id="@+id/game_LAY_center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/game_BTN_up"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/game_LAY_center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_up"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <ImageButton
+        android:id="@+id/game_BTN_down"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/game_LAY_center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_down"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <ImageButton
+        android:id="@+id/game_BTN_left"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@id/game_LAY_center"
+        android:layout_alignTop="@id/game_LAY_center"
+        android:src="@drawable/ic_left"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <ImageButton
+        android:id="@+id/game_BTN_right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/game_LAY_center"
+        android:layout_alignTop="@id/game_LAY_center"
+        android:src="@drawable/ic_right"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+</RelativeLayout>
